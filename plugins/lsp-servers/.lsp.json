@@ -23,4 +23,18 @@
       ".go": "go"
     }
   }
+  "cpp": {
+    "command": "clangd-15",
+    "args": [
+      "--background-index",
+      "--header-insertion=never",
+      "--query-driver=/usr/bin/arm-none-eabi-gcc*"
+    ],
+    "extensionToLanguage": {
+      ".c": "cpp",
+      ".h": "cpp",
+      ".cpp": "cpp",
+      ".hpp": "cpp"
+    }
+  }
 }
