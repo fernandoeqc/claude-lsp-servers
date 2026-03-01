@@ -1,13 +1,13 @@
 {
   "name": "lsp-servers",
   "version": "1.0.0",
-  "description": "Language servers for TypeScript, Python (Pyright), and Go (gopls)",
+  "description": "Language servers for cpp (original author: yungweng)",
   "author": {
-    "name": "yungweng",
-    "email": "y.wenger@gmx.de",
-    "url": "https://github.com/yungweng"
+    "name": "fernandoeqc",
+    "email": "fernandoeqc@live.com",
+    "url": "https://github.com/fernandoeqc"
   },
-  "repository": "https://github.com/yungweng/claude-lsp-servers",
+  "repository": "https://github.com/fernandoeqc/claude-lsp-servers",
   "license": "MIT",
-  "keywords": ["lsp", "typescript", "python", "go", "language-server", "code-intelligence"]
+  "keywords": ["lsp", "cpp", "clangd", "language-server", "code-intelligence"]
 }
