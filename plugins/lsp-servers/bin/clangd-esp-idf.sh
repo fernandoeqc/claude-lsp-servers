@@ -1,13 +1,13 @@
 #!/bin/bash
-# Wrapper para esp-clang do ESP-IDF
-# Detecta automaticamente a versão instalada em ~/.espressif
+# Wrapper for esp-clang from ESP-IDF
+# Automatically detects the installed version in ~/.espressif
 #
-# Override padrão: export ESPRESSIF_DIR=/caminho/customizado
+# Default override: export ESPRESSIF_DIR=/custom/path
 
 ESPRESSIF_DIR="${ESPRESSIF_DIR:-$HOME/.espressif}"
 TOOLS_DIR="$ESPRESSIF_DIR/tools"
 
-# Detecta o esp-clang mais recente instalado
+# Detects the most recently installed esp-clang
 ESP_CLANG=$(ls "$TOOLS_DIR/esp-clang"/*/esp-clang/bin/clangd 2>/dev/null | sort -V | tail -1)
 
 if [ -z "$ESP_CLANG" ]; then
