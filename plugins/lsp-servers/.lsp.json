@@ -22,13 +22,12 @@
     "extensionToLanguage": {
       ".go": "go"
     }
-  }
-  "cpp": {
-    "command": "clangd-15",
+  },
+  "cpp-esp-idf": {
+    "command": "${CLAUDE_PLUGIN_ROOT}/bin/clangd-esp-idf.sh",
     "args": [
       "--background-index",
-      "--header-insertion=never",
-      "--query-driver=/usr/bin/arm-none-eabi-gcc*"
+      "--header-insertion=never"
     ],
     "extensionToLanguage": {
       ".c": "cpp",

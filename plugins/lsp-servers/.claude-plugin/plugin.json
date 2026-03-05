@@ -1,7 +1,7 @@
 {
   "name": "lsp-servers",
-  "version": "1.0.0",
-  "description": "Language servers for cpp (original author: yungweng)",
+  "version": "1.1.0",
+  "description": "Language servers for TypeScript, Python, Go, and C/C++ with ESP-IDF support",
   "author": {
     "name": "fernandoeqc",
     "email": "fernandoeqc@live.com",
@@ -9,5 +9,5 @@
   },
   "repository": "https://github.com/fernandoeqc/claude-lsp-servers",
   "license": "MIT",
-  "keywords": ["lsp", "cpp", "clangd", "language-server", "code-intelligence"]
+  "keywords": ["lsp", "cpp", "clangd", "esp-idf", "espressif", "language-server", "code-intelligence"]
 }
